@@ -1,0 +1,369 @@
+{
+  "source_status": "cancelled",
+  "datasets": [
+    "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\exp1\\Marrodan_2024_Set1.xml",
+    "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\exp1\\Marrodan_2024_Set2.xml",
+    "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\exp1\\Marrodan_2024_Set3.xml",
+    "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\exp1\\Marrodan_2024_Set4.xml",
+    "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\exp4\\Shin_Yoo_2004_MIX1.xml",
+    "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\exp4\\Shin_Yoo_2004_MIX2.xml"
+  ],
+  "mechanisms": [
+    "26092003",
+    "N_CHO_240725_working",
+    "clear_26092002"
+  ],
+  "figures": 5,
+  "files": 15,
+  "seconds": 22.98560479999287,
+  "events": [
+    {
+      "done": 0,
+      "total": 5,
+      "message": "正在整理实验—模拟对应数据…"
+    },
+    {
+      "done": 0,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set1.xml（5 个物种子图）"
+    },
+    {
+      "done": 0,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set1.xml / CH3NH2"
+    },
+    {
+      "done": 0,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set1.xml / H2"
+    },
+    {
+      "done": 0,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set1.xml / NH3"
+    },
+    {
+      "done": 0,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set1.xml / HCN"
+    },
+    {
+      "done": 0,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set1.xml / H2O"
+    },
+    {
+      "done": 0,
+      "total": 5,
+      "message": "正在导出 Marrodan_2024_Set1.xml / PNG"
+    },
+    {
+      "done": 0,
+      "total": 5,
+      "message": "正在导出 Marrodan_2024_Set1.xml / PDF"
+    },
+    {
+      "done": 0,
+      "total": 5,
+      "message": "正在导出 Marrodan_2024_Set1.xml / SVG"
+    },
+    {
+      "done": 1,
+      "total": 5,
+      "message": "已完成 Marrodan_2024_Set1.xml"
+    },
+    {
+      "done": 1,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set2.xml（10 个物种子图）"
+    },
+    {
+      "done": 1,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set2.xml / CH3NH2"
+    },
+    {
+      "done": 1,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set2.xml / O2"
+    },
+    {
+      "done": 1,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set2.xml / H2"
+    },
+    {
+      "done": 1,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set2.xml / N2"
+    },
+    {
+      "done": 1,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set2.xml / NH3"
+    },
+    {
+      "done": 1,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set2.xml / HCN"
+    },
+    {
+      "done": 1,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set2.xml / N2O"
+    },
+    {
+      "done": 1,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set2.xml / CO"
+    },
+    {
+      "done": 1,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set2.xml / CO2"
+    },
+    {
+      "done": 1,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set2.xml / H2O"
+    },
+    {
+      "done": 1,
+      "total": 5,
+      "message": "正在导出 Marrodan_2024_Set2.xml / PNG"
+    },
+    {
+      "done": 1,
+      "total": 5,
+      "message": "正在导出 Marrodan_2024_Set2.xml / PDF"
+    },
+    {
+      "done": 1,
+      "total": 5,
+      "message": "正在导出 Marrodan_2024_Set2.xml / SVG"
+    },
+    {
+      "done": 2,
+      "total": 5,
+      "message": "已完成 Marrodan_2024_Set2.xml"
+    },
+    {
+      "done": 2,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set3.xml（11 个物种子图）"
+    },
+    {
+      "done": 2,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set3.xml / CH3NH2"
+    },
+    {
+      "done": 2,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set3.xml / O2"
+    },
+    {
+      "done": 2,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set3.xml / H2"
+    },
+    {
+      "done": 2,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set3.xml / N2"
+    },
+    {
+      "done": 2,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set3.xml / NH3"
+    },
+    {
+      "done": 2,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set3.xml / HCN"
+    },
+    {
+      "done": 2,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set3.xml / N2O"
+    },
+    {
+      "done": 2,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set3.xml / NO"
+    },
+    {
+      "done": 2,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set3.xml / CO"
+    },
+    {
+      "done": 2,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set3.xml / CO2"
+    },
+    {
+      "done": 2,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set3.xml / H2O"
+    },
+    {
+      "done": 2,
+      "total": 5,
+      "message": "正在导出 Marrodan_2024_Set3.xml / PNG"
+    },
+    {
+      "done": 2,
+      "total": 5,
+      "message": "正在导出 Marrodan_2024_Set3.xml / PDF"
+    },
+    {
+      "done": 2,
+      "total": 5,
+      "message": "正在导出 Marrodan_2024_Set3.xml / SVG"
+    },
+    {
+      "done": 3,
+      "total": 5,
+      "message": "已完成 Marrodan_2024_Set3.xml"
+    },
+    {
+      "done": 3,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set4.xml（11 个物种子图）"
+    },
+    {
+      "done": 3,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set4.xml / CH3NH2"
+    },
+    {
+      "done": 3,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set4.xml / O2"
+    },
+    {
+      "done": 3,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set4.xml / H2"
+    },
+    {
+      "done": 3,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set4.xml / N2"
+    },
+    {
+      "done": 3,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set4.xml / NH3"
+    },
+    {
+      "done": 3,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set4.xml / HCN"
+    },
+    {
+      "done": 3,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set4.xml / N2O"
+    },
+    {
+      "done": 3,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set4.xml / NO"
+    },
+    {
+      "done": 3,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set4.xml / CO"
+    },
+    {
+      "done": 3,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set4.xml / CO2"
+    },
+    {
+      "done": 3,
+      "total": 5,
+      "message": "正在绘制 Marrodan_2024_Set4.xml / H2O"
+    },
+    {
+      "done": 3,
+      "total": 5,
+      "message": "正在导出 Marrodan_2024_Set4.xml / PNG"
+    },
+    {
+      "done": 3,
+      "total": 5,
+      "message": "正在导出 Marrodan_2024_Set4.xml / PDF"
+    },
+    {
+      "done": 3,
+      "total": 5,
+      "message": "正在导出 Marrodan_2024_Set4.xml / SVG"
+    },
+    {
+      "done": 4,
+      "total": 5,
+      "message": "已完成 Marrodan_2024_Set4.xml"
+    },
+    {
+      "done": 4,
+      "total": 5,
+      "message": "正在绘制 ignition / temperature（2 条实验曲线）"
+    },
+    {
+      "done": 4,
+      "total": 5,
+      "message": "正在绘制 ignition / temperature / Shin_Yoo_2004_MIX1.xml / dg1"
+    },
+    {
+      "done": 4,
+      "total": 5,
+      "message": "正在绘制 ignition / temperature / Shin_Yoo_2004_MIX2.xml / dg1"
+    },
+    {
+      "done": 4,
+      "total": 5,
+      "message": "正在导出 ignition / temperature / PNG"
+    },
+    {
+      "done": 4,
+      "total": 5,
+      "message": "正在导出 ignition / temperature / PDF"
+    },
+    {
+      "done": 4,
+      "total": 5,
+      "message": "正在导出 ignition / temperature / SVG"
+    },
+    {
+      "done": 5,
+      "total": 5,
+      "message": "已完成 ignition / temperature"
+    },
+    {
+      "done": 5,
+      "total": 5,
+      "message": "图表绘制与导出完成"
+    }
+  ],
+  "new_simulations": 0,
+  "paths": [
+    "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\pyteck-respecth\\results\\figure-progress-validation\\figures\\species-d9c2681b1d78d83c-Marrodan_2024_Set1.png",
+    "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\pyteck-respecth\\results\\figure-progress-validation\\figures\\species-d9c2681b1d78d83c-Marrodan_2024_Set1.pdf",
+    "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\pyteck-respecth\\results\\figure-progress-validation\\figures\\species-d9c2681b1d78d83c-Marrodan_2024_Set1.svg",
+    "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\pyteck-respecth\\results\\figure-progress-validation\\figures\\species-61c7290084435e0c-Marrodan_2024_Set2.png",
+    "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\pyteck-respecth\\results\\figure-progress-validation\\figures\\species-61c7290084435e0c-Marrodan_2024_Set2.pdf",
+    "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\pyteck-respecth\\results\\figure-progress-validation\\figures\\species-61c7290084435e0c-Marrodan_2024_Set2.svg",
+    "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\pyteck-respecth\\results\\figure-progress-validation\\figures\\species-12a199f4ce7fd9f1-Marrodan_2024_Set3.png",
+    "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\pyteck-respecth\\results\\figure-progress-validation\\figures\\species-12a199f4ce7fd9f1-Marrodan_2024_Set3.pdf",
+    "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\pyteck-respecth\\results\\figure-progress-validation\\figures\\species-12a199f4ce7fd9f1-Marrodan_2024_Set3.svg",
+    "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\pyteck-respecth\\results\\figure-progress-validation\\figures\\species-6034fe80e22ceb97-Marrodan_2024_Set4.png",
+    "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\pyteck-respecth\\results\\figure-progress-validation\\figures\\species-6034fe80e22ceb97-Marrodan_2024_Set4.pdf",
+    "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\pyteck-respecth\\results\\figure-progress-validation\\figures\\species-6034fe80e22ceb97-Marrodan_2024_Set4.svg",
+    "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\pyteck-respecth\\results\\figure-progress-validation\\figures\\ignition-temperature.png",
+    "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\pyteck-respecth\\results\\figure-progress-validation\\figures\\ignition-temperature.pdf",
+    "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\pyteck-respecth\\results\\figure-progress-validation\\figures\\ignition-temperature.svg"
+  ]
+}

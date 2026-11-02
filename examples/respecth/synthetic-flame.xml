@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<experiment>
+  <fileAuthor>Software validation fixture, not experimental measurements</fileAuthor>
+  <fileVersion>
+    <major>1</major>
+    <minor>0</minor>
+  </fileVersion>
+  <ReSpecThVersion>
+    <major>2</major>
+    <minor>6</minor>
+  </ReSpecThVersion>
+  <experimentType>laminar burning velocity measurement</experimentType>
+  <apparatus>
+    <kind>flame</kind>
+  </apparatus>
+  <commonProperties>
+    <property name="pressure" units="atm" sourcetype="calculated">
+      <value>1</value>
+    </property>
+    <property name="residence time" units="s" sourcetype="calculated">
+      <value>0.05</value>
+    </property>
+    <property name="volume" units="cm3" sourcetype="calculated">
+      <value>30</value>
+    </property>
+  </commonProperties>
+  <dataGroup id="dg1" label="Synthetic software fixture">
+    <property name="temperature" id="T_column" label="T" units="K" sourcetype="calculated" />
+    <property name="laminar burning velocity" id="obs0" units="cm/s" label="laminar burning velocity" sourcetype="calculated" />
+    <dataPoint>
+      <T_column>298</T_column>
+      <obs0>150.0</obs0>
+      <phi_column>0.8</phi_column>
+      <in_H2>0.2515723270440252</in_H2>
+      <in_O2>0.15723270440251574</in_O2>
+      <in_N2>0.5911949685534591</in_N2>
+    </dataPoint>
+    <dataPoint>
+      <T_column>298</T_column>
+      <obs0>200.0</obs0>
+      <phi_column>1.0</phi_column>
+      <in_H2>0.2958579881656805</in_H2>
+      <in_O2>0.14792899408284024</in_O2>
+      <in_N2>0.5562130177514792</in_N2>
+    </dataPoint>
+    <dataPoint>
+      <T_column>298</T_column>
+      <obs0>220.0</obs0>
+      <phi_column>1.2</phi_column>
+      <in_H2>0.33519553072625696</in_H2>
+      <in_O2>0.13966480446927373</in_O2>
+      <in_N2>0.5251396648044693</in_N2>
+    </dataPoint>
+    <property name="equivalence ratio" id="phi_column" label="phi" units="unitless" sourcetype="calculated" />
+    <property name="initial composition" id="in_H2" units="mole fraction" sourcetype="calculated">
+      <speciesLink preferredKey="H2" />
+    </property>
+    <property name="initial composition" id="in_O2" units="mole fraction" sourcetype="calculated">
+      <speciesLink preferredKey="O2" />
+    </property>
+    <property name="initial composition" id="in_N2" units="mole fraction" sourcetype="calculated">
+      <speciesLink preferredKey="N2" />
+    </property>
+  </dataGroup>
+  <comment>SYNTHETIC: nominal y values exercise software scoring only. They are not experiments and cannot validate a kinetic mechanism.</comment>
+</experiment>

@@ -1,0 +1,13 @@
+{
+  "cases": 22,
+  "cache_hits": 22,
+  "new_solver_calls": 0,
+  "initial_progress": [
+    22,
+    22,
+    "",
+    "cached"
+  ],
+  "source_cache_unchanged": true,
+  "output": "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\pyteck-respecth\\results\\workload-validation\\cached-resume"
+}

@@ -1,0 +1,98 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Flask instance folder
+instance/
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# project-specific data files
+*.h5
+
+# model-evaluation output (per-case results dir and summary YAML)
+results/
+*-results.yaml
+
+# ReSpecTh project-local runtime artifacts
+.venv*/
+.cache/
+vendor/
+upstream.zip
+prepared/
+figures/
+.streamlit/secrets.toml
+
+# Local uploads and machine-specific run configurations
+.pytest_cache/
+inputs/uploads/
+examples/respecth/audited-actual.yaml
+examples/respecth/clear-26092002.yaml
+examples/respecth/local-library.yaml
+examples/respecth/multi-actual.yaml
+examples/respecth/single-ncho.yaml
+examples/respecth/single-ncho-reused.yaml
+.env
+.env.*
+!.env.example

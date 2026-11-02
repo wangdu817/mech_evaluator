@@ -1,0 +1,28 @@
+{
+  "before": {
+    "obsolete": {
+      "files": 53,
+      "bytes": 13788693
+    },
+    "previews": {
+      "files": 52,
+      "bytes": 12853293
+    },
+    "archives": {
+      "files": 0,
+      "bytes": 0
+    },
+    "development": {
+      "files": 521,
+      "bytes": 2241738
+    }
+  },
+  "scan_errors": [],
+  "active": [],
+  "cleanup": {
+    "deleted": 53,
+    "bytes": 13788693,
+    "blocked": [],
+    "errors": []
+  }
+}

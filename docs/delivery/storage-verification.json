@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-19",
+  "tests": {
+    "total": 39,
+    "passed": 33,
+    "skipped": 6,
+    "failures": 0,
+    "errors": 0,
+    "skip_reason": "Six live-snapshot fixture integrations cancelled by existing physical-memory reserve guard (3.17 GiB); guard not changed."
+  },
+  "ui": "Streamlit AppTest; no claim of real-browser GUI verification",
+  "default_storage": "Unsaved GUI session; explicit save creates results/projects/<name>",
+  "actual_result_roundtrip": "project-storage-verification.json",
+  "cleanup": "cache-maintenance-audit.json",
+  "package": "package-smoke.json",
+  "numeric_solvers_modified": false,
+  "source_xml_modified": false
+}

@@ -1,0 +1,15 @@
+schema_version: 1
+datasets:
+- synthetic-time-profile.xml
+- synthetic-burner-profile.xml
+mechanisms:
+- id: h2o2
+  path: mechanisms/h2o2.yaml
+output: ../../results/profile-demo
+grid:
+  enabled: false
+solver:
+  verify: true
+  ignition_fallback: temperature_gradient
+workers: 1
+flame_workers: 1

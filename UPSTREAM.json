@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/pr-omethe-us/PyTeCK",
+  "commit": "c322c747e4c59b4acddb0b061e680e18697f065e",
+  "version": "0.2.6",
+  "retrieval": "GitHub commit archive; retained in upstream.zip and vendor/upstream-archive",
+  "extension": "pyteck.respecth",
+  "license": "MIT; upstream LICENSE retained",
+  "implementation_date": "2026-10-08"
+}

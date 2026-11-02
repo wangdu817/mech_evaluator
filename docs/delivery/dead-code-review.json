@@ -1,0 +1,26 @@
+{
+  "removed": [
+    {
+      "file": "analysis.py",
+      "function": "_finite_difference_reference",
+      "lines": 58,
+      "before_sha256": "9e658c3e01925b2725b68ad445e2d8b00c0fee6b965dce67887065cef33e803a",
+      "remaining_ast_identical": true,
+      "after_sha256": "6e9402cc9a377b21e0b9b5f26686ff4086787a0bf48be21e6f9be9673025f0a6"
+    },
+    {
+      "file": "solvers.py",
+      "function": "_new_history",
+      "lines": 3,
+      "before_sha256": "48ba82b15337a6c1aea95fa8ebcdc873febd634769a591632c36b44026b35ce2",
+      "remaining_ast_identical": true,
+      "after_sha256": "cdb00bed5a5d6a6fce19c37ecf43b0e36ba04fb8cd816fec3aab73518112ab9d"
+    }
+  ],
+  "simulation_cache_identity_preserved": true,
+  "analysis_cache_identity_preserved": true,
+  "preserved_reference_functions": [
+    "_solve_observable",
+    "sensitivity_coefficients"
+  ]
+}

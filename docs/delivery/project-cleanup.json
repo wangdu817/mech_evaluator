@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-26",
+  "applied": true,
+  "categories": {
+    "development-cache": 86,
+    "bytecode": 28
+  },
+  "files": 114,
+  "apparent_freed_bytes": 1079269,
+  "bytes_by_category": {
+    "development-cache": 737198,
+    "bytecode": 342071
+  },
+  "protected_files": 30220,
+  "protected_inventory_unchanged": true,
+  "errors": [],
+  "preserved": [
+    "source XML/mechanisms",
+    "simulation results",
+    "saved projects",
+    "unsaved sessions",
+    "mechanism conversion audit",
+    "environment",
+    "Git repository",
+    "scientific validation evidence"
+  ],
+  "initial_cleanup_files": 477,
+  "initial_cleanup_bytes": 20993218,
+  "note": "Second pass removes newly generated package/test artifacts; inputs and numerical results unchanged in both passes."
+}

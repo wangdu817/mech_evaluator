@@ -1,0 +1,20 @@
+schema_version: 1
+datasets:
+- synthetic-pfr.xml
+- synthetic-jsr.xml
+- synthetic-ignition.xml
+- synthetic-flame.xml
+- synthetic-ignition-2atm.xml
+mechanisms:
+- id: h2o2
+  path: mechanisms/h2o2.yaml
+- id: gri30
+  path: mechanisms/gri30.yaml
+output: ../../results/demo
+solver:
+  verify: true
+grid:
+  enabled: false
+figure: {}
+scoring: {}
+workers: 2

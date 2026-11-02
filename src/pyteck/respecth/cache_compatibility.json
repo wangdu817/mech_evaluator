@@ -1,0 +1,58 @@
+{
+  "aliases": {
+    "23bec96cbef6a204835c823dacdfea987484fe29e448f38baef82baade3c7657": "9bec14030dfe5257602968eaaff1178d4ec94184cec433dae59ef5ca236b364f",
+    "4831fb929ae985bbd529cddd949da114a671769d1d54e06cae67ff2e4b9ebd68": "3ccc591cab2e78cc067bcc068c04bbd830946ef324b5977e696dada8ff317713",
+    "87dbabcea5e06bd4d17e6d3d3747946904ef9966586c643ca62eebde249fd95a": "0c5bb1a404a637f07b5b47f72012591d2a96625befd7eb3fd0bd5c9348ed6e83",
+    "c66d8b7b557c67a2b4136d255ee0a252bc4991272aa058b6525a1aa9bd55dcbc": "0c5bb1a404a637f07b5b47f72012591d2a96625befd7eb3fd0bd5c9348ed6e83",
+    "a5ac5eed50c1c9822ccd4586cbe775ab2dfd038c385339424aae6b952f807fb4": "0c5bb1a404a637f07b5b47f72012591d2a96625befd7eb3fd0bd5c9348ed6e83",
+    "da607d32aa474b7037a80e766d0df8a55b1e4dfb433cdb1530492ce90465b81c": "0c5bb1a404a637f07b5b47f72012591d2a96625befd7eb3fd0bd5c9348ed6e83"
+  },
+  "reason": "Exact audited storage-only revision: full histories streamed; integration models, tolerances, equations and point extraction unchanged",
+  "validation": "Two actual mechanisms x PFR/JSR/ignition: all predictions identical; numerical tests passed",
+  "source_hashes": {
+    "models.py": "f45b63df55844ab3c2415402537107ab6ee5cf9c228081de23fd7db1ed80b088",
+    "units.py": "ec341054e6a4ff13096a7019e6663b6498d38cbb60fd80a1aa99bff248482f1b",
+    "reader.py": "2ca75e906d76abc057393f8df776c802bc4c2c0e6b4ee23929977b886b1a504f",
+    "cases.py": "7bb383e72c4ef68fe04047a856409ab5d368590de7db973fee7a69c7746f3590",
+    "solvers.py": "cdb00bed5a5d6a6fce19c37ecf43b0e36ba04fb8cd816fec3aab73518112ab9d",
+    "history_io.py": "1e63de31fbab820f6dda879b861951cdb09de036158aa3e5846da4257b641605",
+    "../gas_io.py": "6a2275dc1362d7f8930206769104a4c07d5c25595e5f07631408a8a92e7e1b57",
+    "../detect_peaks.py": "48c37a9aa2a379c66360b1db81127e99219907140bde7116d65cbba12d91361e"
+  },
+  "cleanup_reason": "Removed only AST-unreferenced _new_history; all remaining AST nodes identical",
+  "grid_default_change": {
+    "reason": "Only omitted grid.enabled defaults to false; explicit settings, models, solver tolerances and extracted predictions unchanged. Existing experimental case identities remain reusable.",
+    "before_engine": "0c5bb1a404a637f07b5b47f72012591d2a96625befd7eb3fd0bd5c9348ed6e83",
+    "after_engine": "87dbabcea5e06bd4d17e6d3d3747946904ef9966586c643ca62eebde249fd95a",
+    "before_cases_sha256": "7bb383e72c4ef68fe04047a856409ab5d368590de7db973fee7a69c7746f3590",
+    "after_cases_sha256": "694874d12f4b8956ba0b51d55c04ca3483476fb56d073cbeb8a1eb5ec5371538",
+    "review": "All other engine sources byte-identical; cases.py differs only in the grid-enabled default constant. Regression tests compare experimental case identities with densification enabled and disabled."
+  },
+  "permissive_conversion_change": {
+    "before_engine": "87dbabcea5e06bd4d17e6d3d3747946904ef9966586c643ca62eebde249fd95a",
+    "after_engine": "c66d8b7b557c67a2b4136d255ee0a252bc4991272aa058b6525a1aa9bd55dcbc",
+    "reason": "Only mechanism preparation changed: permissive by default, option-specific conversion log and artifact names, conversion options in provenance. Mechanism identity still includes original source and resolved chemistry; changed chemistry receives a different mechanism identity.",
+    "review": "All engine sources other than cases.py byte-identical; all cases.py AST nodes except prepare_mechanism identical."
+  },
+  "profile_interface_extension": {
+    "before_engine": "c66d8b7b557c67a2b4136d255ee0a252bc4991272aa058b6525a1aa9bd55dcbc",
+    "after_engine": "a5ac5eed50c1c9822ccd4586cbe775ab2dfd038c385339424aae6b952f807fb4",
+    "reason": "Add shock-tube species time profiles and imposed-temperature burner species, with explicit unsupported-IDT substitution. Existing supported case physics unchanged; newly supported cases have new kind, coordinate, conditions, targets, issues or effective ignition configuration.",
+    "review": "PFR, JSR, free-flame, RKDSimulation, ignition extraction and history writer AST unchanged. Existing ignition integration AST unchanged; only returned definition metadata added. Previously valid supported ignition definitions retain their effective configuration."
+  },
+  "shared_profile_execution": {
+    "before_engine": "a5ac5eed50c1c9822ccd4586cbe775ab2dfd038c385339424aae6b952f807fb4",
+    "after_engine": "da607d32aa474b7037a80e766d0df8a55b1e4dfb433cdb1530492ce90465b81c",
+    "reason": "Only time/axial profile task grouping and profile sample extraction changed. Profile targets receive distinct series-coordinate keys; old per-point profiles cannot collide. Other solver classes/functions AST identical.",
+    "unchanged_solver_nodes": [
+      "RKDSimulation",
+      "PFRSimulation",
+      "JSRSimulation",
+      "IgnitionSimulation",
+      "FlameSimulation",
+      "simulate_case",
+      "extract_ignition",
+      "_save_history"
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+[server]
+# Production calculations must not unload Python modules during a batch.
+# Restart the app after code updates; simulation caches remain reusable.
+fileWatcherType = "none"

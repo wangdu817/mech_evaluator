@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-12",
+  "delivery": "local runnable checkout + wheel + sdist",
+  "cleanup": {
+    "freed_MiB": 58.57,
+    "moved_documents": 26,
+    "preserved_result_files": 11442,
+    "results_unchanged": true,
+    "numerical_source_hashes_unchanged": true
+  },
+  "tests": {
+    "passed": 176,
+    "skipped": 12,
+    "deselected": 1,
+    "failures": 0,
+    "command": "pytest -q -p no:cacheprovider --deselect=tests/test_eval_model.py::TestEvalModel::test",
+    "skip_details": [
+      {
+        "test": "tests.test_case_analysis::test_actual_temperature_sensitivity_against_independent_difference",
+        "reason": "Actual validation artifacts unavailable"
+      },
+      {
+        "test": "tests.test_plot_availability::test_selected_sets_have_blocked_clear_and_absent_ncho",
+        "reason": "Actual saved data unavailable"
+      },
+      {
+        "test": "tests.test_plot_availability::test_actual_ignition_has_lines_for_both_mechanisms",
+        "reason": "Actual saved data unavailable"
+      },
+      {
+        "test": "tests.test_plot_availability::test_experiment_only_export_states_missing_simulations",
+        "reason": "Actual saved data unavailable"
+      },
+      {
+        "test": "tests.test_preconditioner::test_preconditioned_matches_actual_dense[pfr]",
+        "reason": "Actual run not distributed"
+      },
+      {
+        "test": "tests.test_preconditioner::test_preconditioned_matches_actual_dense[jsr]",
+        "reason": "Actual run not distributed"
+      },
+      {
+        "test": "tests.test_preconditioner::test_preconditioned_matches_actual_dense[ignition]",
+        "reason": "Actual run not distributed"
+      },
+      {
+        "test": "tests.test_respecth::test_audited_working_serialization_preserves_physical_model",
+        "reason": "Local user mechanism unavailable"
+      },
+      {
+        "test": "tests.test_saved_runs::test_actual_saved_runs_combine_without_touching_histories",
+        "reason": "Local actual data not distributed"
+      },
+      {
+        "test": "tests.test_saved_runs::test_same_label_different_mechanism_rejected",
+        "reason": "Saved demo not distributed"
+      },
+      {
+        "test": "tests.test_ui_summary::test_real_old_batch_is_not_selected_clear_batch",
+        "reason": "Local actual-run artifacts unavailable"
+      },
+      {
+        "test": "tests.test_ui_summary::test_actual_six_xml_comparison_reports_missing_31_and_diagnostic_charts",
+        "reason": "Local actual-run artifacts unavailable"
+      }
+    ],
+    "known_limit": "Legacy TestEvalModel.test blocked in multiprocessing.Pool.map in this execution environment; no pass claimed.",
+    "test_only_fix": "Updated test_result_library mock to the current result_access.load_result_view entry; production code unchanged."
+  },
+  "packaging": {
+    "wheel": "pyteck-0.2.6+respecth.1-py3-none-any.whl",
+    "sdist": "pyteck-0.2.6+respecth.1.tar.gz",
+    "extension_modules": 39,
+    "upstream_modules_present": true,
+    "wheel_import_path": "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\pyteck-respecth\\.cache\\wheel-install\\pyteck\\__init__.py",
+    "parse_from_wheel": true
+  },
+  "startup": {
+    "environment_check": "passed",
+    "cli_help": "passed",
+    "url": "http://127.0.0.1:8502/",
+    "health": "ok"
+  },
+  "runtime_portability": "venv313 depends on local C:/Python313; setup.ps1 required on another machine",
+  "numerical_version": "unchanged to preserve cache identity"
+}

@@ -1,0 +1,16 @@
+{
+  "case_id": "471dd19bd2d5891b9cef7a0db6ade76ec16085c1c5c29e258412a0c842751fe6",
+  "mechanism": "Mech25_47_v1_NH3_CH4_260324_MECH",
+  "temperature_K": 1299.96412099,
+  "analysis_time_s": 0.0007110009003680046,
+  "status": "completed",
+  "baseline_K": 1939.810113783025,
+  "method": "Cantera forward temperature sensitivity, default tolerances, one integration",
+  "reaction_count": 2,
+  "macro_figures": [
+    "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\pyteck-respecth\\results\\postprocessing-validation\\figures\\ignition-temperature.png",
+    "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\pyteck-respecth\\results\\postprocessing-validation\\figures\\ignition-temperature.pdf",
+    "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\pyteck-respecth\\results\\postprocessing-validation\\figures\\ignition-temperature.svg"
+  ],
+  "report": "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\pyteck-respecth\\results\\analysis\\temperature-entry-validation\\report.json"
+}

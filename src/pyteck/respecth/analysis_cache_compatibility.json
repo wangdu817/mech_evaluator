@@ -1,0 +1,30 @@
+{
+  "aliases": {
+    "b4382536d4689f811a89cc43dbd06da84f8e8c8778427172804edb8ec3f9bf25": "b71541cd077548c00ac6441cffc6d7078bb777f57be89efad6cf8cb26e0acac4",
+    "5b53b6026026a69ef8f1461bce6008a1c7ef04484671995f753d67a3b2402c98": "ce68149632285368c6764087e25deecb9d603c955d443ebc4601257a7924ee41"
+  },
+  "reason": "Only unreferenced _finite_difference_reference and _new_history removed; retained AST identical",
+  "evidence": [
+    {
+      "file": "analysis.py",
+      "function": "_finite_difference_reference",
+      "lines": 58,
+      "before_sha256": "9e658c3e01925b2725b68ad445e2d8b00c0fee6b965dce67887065cef33e803a",
+      "remaining_ast_identical": true,
+      "after_sha256": "6e9402cc9a377b21e0b9b5f26686ff4086787a0bf48be21e6f9be9673025f0a6"
+    },
+    {
+      "file": "solvers.py",
+      "function": "_new_history",
+      "lines": 3,
+      "before_sha256": "48ba82b15337a6c1aea95fa8ebcdc873febd634769a591632c36b44026b35ce2",
+      "remaining_ast_identical": true,
+      "after_sha256": "cdb00bed5a5d6a6fce19c37ecf43b0e36ba04fb8cd816fec3aab73518112ab9d"
+    }
+  ],
+  "shared_profile_execution": {
+    "previous_signature": "ce68149632285368c6764087e25deecb9d603c955d443ebc4601257a7924ee41",
+    "new_raw_signature": "5b53b6026026a69ef8f1461bce6008a1c7ef04484671995f753d67a3b2402c98",
+    "reason": "Native reactor adds a profile-only selected-time branch. Existing PFR/JSR/flame/ignition solver AST and analysis.py unchanged. New shared profile cases and selected coordinates have distinct case/payload identities."
+  }
+}

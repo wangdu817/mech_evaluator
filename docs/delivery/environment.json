@@ -1,0 +1,20 @@
+{
+  "python": "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]",
+  "executable": "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\pyteck-respecth\\.venv313\\Scripts\\python.exe",
+  "packages": {
+    "cantera": "3.2.0",
+    "streamlit": "1.65.0",
+    "numpy": "2.3.3",
+    "scipy": "1.15.3",
+    "h5py": "3.16.0",
+    "matplotlib": "3.10.3",
+    "pyked": "0.5.0",
+    "pint": "0.26.1",
+    "tables": "3.11.1",
+    "pyyaml": "6.0.3",
+    "psutil": "7.2.1",
+    "pytest": "8.4.2",
+    "hatchling": "1.32.4",
+    "build": "1.6.1"
+  }
+}

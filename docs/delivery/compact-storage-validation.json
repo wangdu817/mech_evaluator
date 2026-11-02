@@ -1,0 +1,15 @@
+{
+  "mechanism": "clear_26092002",
+  "case_id": "659b583776c4756c0ebfe6c102b3db88a1b3bb490fc6cb21713cd12fcfa0bb3d",
+  "original_rows": 101,
+  "compact_rows": 2,
+  "history_bytes_before": 511276,
+  "history_bytes_after": 36688,
+  "reduction_percent": 92.82422800992028,
+  "predictions_identical": true,
+  "scores_identical": true,
+  "load_and_plot_passed": true,
+  "figure_files": 1,
+  "source_history_unchanged": true,
+  "new_simulations": 0
+}

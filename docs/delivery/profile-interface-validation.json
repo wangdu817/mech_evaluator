@@ -1,0 +1,196 @@
+{
+  "summary": {
+    "actual_files_prechecked": 37,
+    "cases_prechecked": 461,
+    "invalid_cases": 0,
+    "fallback_cases": 240,
+    "actual_cases_run": 7,
+    "actual_cases_success": 7,
+    "maximum_relative_OH_reference_error": 4.035578568008489e-08,
+    "input_hashes_unchanged": true
+  },
+  "details": {
+    "actual_xml_files": 37,
+    "actual_prechecked_cases": 461,
+    "invalid_cases": 0,
+    "fallback_cases": 240,
+    "mechanism": "26092003.yaml",
+    "source_hashes_unchanged": true,
+    "records": [
+      {
+        "xml": "Li_2015_OH_1417K_2p2atm.xml",
+        "kind": "profile",
+        "scan": 9.8421e-07,
+        "status": "success",
+        "reason": "",
+        "predictions": {
+          "191d0ad9504395db-Li_2015_OH_1417K_2p2atm:dg1:x2": 6.709981924042668e-09
+        },
+        "validation": {
+          "requested": true,
+          "passed": true,
+          "differences": {
+            "191d0ad9504395db-Li_2015_OH_1417K_2p2atm:dg1:x2": 2.391508050445657e-16
+          },
+          "accepted": {
+            "191d0ad9504395db-Li_2015_OH_1417K_2p2atm:dg1:x2": true
+          },
+          "rtol_tight": 1e-10,
+          "atol_tight": 1.0000000000000001e-16
+        },
+        "elapsed": 4.181946499971673,
+        "reference_OH": 6.709981653256087e-09,
+        "reference_absolute_error": 2.707865815161043e-16,
+        "reference_relative_error": 4.035578568008489e-08
+      },
+      {
+        "xml": "Li_2015_OH_1417K_2p2atm.xml",
+        "kind": "profile",
+        "scan": 0.000303087,
+        "status": "success",
+        "reason": "",
+        "predictions": {
+          "191d0ad9504395db-Li_2015_OH_1417K_2p2atm:dg1:x2": 3.907621805441089e-06
+        },
+        "validation": {
+          "requested": true,
+          "passed": true,
+          "differences": {
+            "191d0ad9504395db-Li_2015_OH_1417K_2p2atm:dg1:x2": 1.7620669700635968e-14
+          },
+          "accepted": {
+            "191d0ad9504395db-Li_2015_OH_1417K_2p2atm:dg1:x2": true
+          },
+          "rtol_tight": 1e-10,
+          "atol_tight": 1.0000000000000001e-16
+        },
+        "elapsed": 4.174233800033107,
+        "reference_OH": 3.907621788516926e-06,
+        "reference_absolute_error": 1.692416297843823e-14,
+        "reference_relative_error": 4.33106474842887e-09
+      },
+      {
+        "xml": "Li_2015_OH_1417K_2p2atm.xml",
+        "kind": "profile",
+        "scan": 0.00218,
+        "status": "success",
+        "reason": "",
+        "predictions": {
+          "191d0ad9504395db-Li_2015_OH_1417K_2p2atm:dg1:x2": 5.942310856394931e-05
+        },
+        "validation": {
+          "requested": true,
+          "passed": true,
+          "differences": {
+            "191d0ad9504395db-Li_2015_OH_1417K_2p2atm:dg1:x2": 1.4592063587179696e-13
+          },
+          "accepted": {
+            "191d0ad9504395db-Li_2015_OH_1417K_2p2atm:dg1:x2": true
+          },
+          "rtol_tight": 1e-10,
+          "atol_tight": 1.0000000000000001e-16
+        },
+        "elapsed": 4.463010099949315,
+        "reference_OH": 5.942310871860435e-05,
+        "reference_absolute_error": 1.5465503633597597e-13,
+        "reference_relative_error": 2.6026076331404747e-09
+      },
+      {
+        "xml": "Li_2015_OH_1504K_2p1atm.xml",
+        "kind": "profile",
+        "scan": 0.0,
+        "status": "success",
+        "reason": "",
+        "predictions": {
+          "f82a59580ac8f409-Li_2015_OH_1504K_2p1atm:dg1:x2": 0.0
+        },
+        "validation": {
+          "requested": true,
+          "passed": true,
+          "differences": {
+            "f82a59580ac8f409-Li_2015_OH_1504K_2p1atm:dg1:x2": 0.0
+          },
+          "accepted": {
+            "f82a59580ac8f409-Li_2015_OH_1504K_2p1atm:dg1:x2": true
+          },
+          "rtol_tight": 1e-10,
+          "atol_tight": 1.0000000000000001e-16
+        },
+        "elapsed": 3.0741712999297306,
+        "reference_OH": 0.0,
+        "reference_absolute_error": 0.0,
+        "reference_relative_error": 0.0
+      },
+      {
+        "xml": "Li_2015_OH_1504K_2p1atm.xml",
+        "kind": "profile",
+        "scan": 0.0003,
+        "status": "success",
+        "reason": "",
+        "predictions": {
+          "f82a59580ac8f409-Li_2015_OH_1504K_2p1atm:dg1:x2": 4.740613802413793e-05
+        },
+        "validation": {
+          "requested": true,
+          "passed": true,
+          "differences": {
+            "f82a59580ac8f409-Li_2015_OH_1504K_2p1atm:dg1:x2": 3.0630342419358733e-13
+          },
+          "accepted": {
+            "f82a59580ac8f409-Li_2015_OH_1504K_2p1atm:dg1:x2": true
+          },
+          "rtol_tight": 1e-10,
+          "atol_tight": 1.0000000000000001e-16
+        },
+        "reference_OH": 4.7406137682293355e-05,
+        "reference_relative_error": 7.210977122533101e-09
+      },
+      {
+        "xml": "Li_2015_OH_1504K_2p1atm.xml",
+        "kind": "profile",
+        "scan": 0.01,
+        "status": "success",
+        "reason": "",
+        "predictions": {
+          "f82a59580ac8f409-Li_2015_OH_1504K_2p1atm:dg1:x2": 3.8633315462071e-05
+        },
+        "validation": {
+          "requested": true,
+          "passed": true,
+          "differences": {
+            "f82a59580ac8f409-Li_2015_OH_1504K_2p1atm:dg1:x2": 1.1874272317366832e-13
+          },
+          "accepted": {
+            "f82a59580ac8f409-Li_2015_OH_1504K_2p1atm:dg1:x2": true
+          },
+          "rtol_tight": 1e-10,
+          "atol_tight": 1.0000000000000001e-16
+        },
+        "reference_OH": 3.863331560542408e-05,
+        "reference_relative_error": 3.7106078070321974e-09
+      },
+      {
+        "xml": "Shi_2018_CH4_M0_P4.xml",
+        "kind": "ignition",
+        "scan": 2000.6,
+        "status": "success",
+        "reason": "",
+        "predictions": {
+          "49dba881f9e1533d-Shi_2018_CH4_M0_P4:dg1:x2": 4.5156946527199494e-05
+        },
+        "validation": {
+          "requested": true,
+          "passed": true,
+          "differences": {
+            "49dba881f9e1533d-Shi_2018_CH4_M0_P4:dg1:x2": 1.3831607791081092e-10
+          },
+          "accepted": {
+            "49dba881f9e1533d-Shi_2018_CH4_M0_P4:dg1:x2": true
+          },
+          "rtol_tight": 1e-10,
+          "atol_tight": 1.0000000000000001e-16
+        }
+      }
+    ]
+  }
+}

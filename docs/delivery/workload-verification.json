@@ -1,0 +1,118 @@
+{
+  "mechanisms": [
+    {
+      "mechanism": "clear_26092002",
+      "total": 1906,
+      "processed": 1901,
+      "success": 1885,
+      "retained_failed": 16,
+      "pending": 5,
+      "blocked": 0,
+      "new_solves": 5,
+      "scoring": 870,
+      "dense": 1036
+    },
+    {
+      "mechanism": "N_CHO_240725_working",
+      "total": 1906,
+      "processed": 1901,
+      "success": 1875,
+      "retained_failed": 26,
+      "pending": 5,
+      "blocked": 0,
+      "new_solves": 5,
+      "scoring": 870,
+      "dense": 1036
+    },
+    {
+      "mechanism": "Mech25_47_v1_NH3_CH4_260324_MECH",
+      "total": 1906,
+      "processed": 0,
+      "success": 0,
+      "retained_failed": 0,
+      "pending": 1906,
+      "blocked": 0,
+      "new_solves": 1906,
+      "scoring": 870,
+      "dense": 1036
+    }
+  ],
+  "totals": {
+    "total": 5718,
+    "processed": 3802,
+    "success": 3760,
+    "retained_failed": 42,
+    "pending": 1916,
+    "blocked": 0,
+    "new_solves": 1916,
+    "scoring": 2610,
+    "dense": 3108
+  },
+  "previous_case_identity_matches": 3802,
+  "xml_count": 37,
+  "warnings": [
+    "7fdb816ce16723a4-Takizawa_2008_LBV: dg1: dense grid skipped; explicit rules needed: composition",
+    "cd00811a54f7eaae-Du_Wang_2026_Phi0p5: dg1: dense grid skipped; explicit rules needed: residence_time",
+    "e7270fe22f8f03eb-Du_Wang_2026_Phi1: dg1: dense grid skipped; explicit rules needed: residence_time",
+    "5e0908dc98e1c717-Du_Wang_2026_Phi2: dg1: dense grid skipped; explicit rules needed: residence_time"
+  ],
+  "elapsed_seconds": 18.017608800000744,
+  "mechanism_validation": {
+    "clear_26092002": {
+      "phase": "gas",
+      "species": 199,
+      "transport": false,
+      "provenance": {
+        "inputs": {
+          "path": {
+            "path": "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\pyteck-respecth\\results\\clear-26092002\\26092002_cantera.yaml",
+            "sha256": "5e6bab21a515a6d13fc4ad5aeb141b4edfe9142681c801c446a8958eaa26979b"
+          }
+        },
+        "cantera": "3.2.0",
+        "conversion_log": "",
+        "serialization_note": ""
+      }
+    },
+    "N_CHO_240725_working": {
+      "phase": "gas",
+      "species": 166,
+      "transport": false,
+      "provenance": {
+        "inputs": {
+          "path": {
+            "path": "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\pyteck-respecth\\results\\multi-mechanism\\inputs\\N_CHO_240725_working.yaml",
+            "sha256": "30f4678b3697dc27964df376531dab5f8cc996e209eca0827aaeb39baaa1e621"
+          }
+        },
+        "cantera": "3.2.0",
+        "conversion_log": "",
+        "serialization_note": ""
+      }
+    },
+    "Mech25_47_v1_NH3_CH4_260324_MECH": {
+      "phase": "gas",
+      "species": 194,
+      "transport": true,
+      "provenance": {
+        "inputs": {
+          "path": {
+            "path": "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\mech\\Mech25_47_v1_NH3_CH4_260324_MECH.inp",
+            "sha256": "88467e543f24f1ba63c89db22ab4375de375ea1304acf4d3ae17eed36f73f0d0"
+          },
+          "thermo": {
+            "path": "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\mech\\Mech25_47_v1_NH3_CH4_260324_THERM.dat",
+            "sha256": "2084f77a40b09e6d15df9a1801b8296ea33a1e53d24bf6f5b609ae1731944aa2"
+          },
+          "transport": {
+            "path": "D:\\BaiduSyncdisk\\Works\\CH3NH2\\机理优化\\mech\\Mech25_47_v1_NH3_CH4_260324_TRAN.dat",
+            "sha256": "a211a7b1ddc18ea6d0e5720deb5c3ae0cc679fc6b4b481234021ba1934e7337d"
+          }
+        },
+        "cantera": "3.2.0",
+        "conversion_log": "Wrote YAML mechanism file to 'D:\\\\BaiduSyncdisk\\\\Works\\\\CH3NH2\\\\机理优化\\\\pyteck-respecth\\\\results\\\\ui-run\\\\prepared\\\\converted-4db6bbb63463a2fe2a2d8f4d04df74163ada6ea1c56098029baa15c1c963d1c0.yaml'.\nMechanism contains 194 species and 1595 reactions.\n",
+        "serialization_note": "Cantera annotation serialization failed; derived YAML omits user annotations only. Original source and hash retained."
+      }
+    }
+  }
+}

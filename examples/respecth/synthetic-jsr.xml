@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<experiment>
+  <fileAuthor>Software validation fixture, not experimental measurements</fileAuthor>
+  <fileVersion>
+    <major>1</major>
+    <minor>0</minor>
+  </fileVersion>
+  <ReSpecThVersion>
+    <major>2</major>
+    <minor>6</minor>
+  </ReSpecThVersion>
+  <experimentType>jet stirred reactor measurement</experimentType>
+  <apparatus>
+    <kind>stirred reactor</kind>
+  </apparatus>
+  <commonProperties>
+    <property name="pressure" units="atm" sourcetype="calculated">
+      <value>1</value>
+    </property>
+    <property name="residence time" units="s" sourcetype="calculated">
+      <value>0.05</value>
+    </property>
+    <property name="volume" units="cm3" sourcetype="calculated">
+      <value>30</value>
+    </property>
+    <property name="initial composition" sourcetype="calculated">
+      <component>
+        <speciesLink preferredKey="H2" />
+        <amount units="mole fraction">0.1111111111111111</amount>
+      </component>
+      <component>
+        <speciesLink preferredKey="O2" />
+        <amount units="mole fraction">0.05555555555555555</amount>
+      </component>
+      <component>
+        <speciesLink preferredKey="AR" />
+        <amount units="mole fraction">0.8333333333333334</amount>
+      </component>
+    </property>
+  </commonProperties>
+  <dataGroup id="dg1" label="Synthetic software fixture">
+    <property name="temperature" id="T_column" label="T" units="K" sourcetype="calculated" />
+    <property name="composition" id="obs0" units="mole fraction" label="H2" sourcetype="calculated">
+      <speciesLink preferredKey="H2" />
+    </property>
+    <property name="composition" id="obs1" units="mole fraction" label="H2O" sourcetype="calculated">
+      <speciesLink preferredKey="H2O" />
+    </property>
+    <dataPoint>
+      <T_column>700</T_column>
+      <obs0>0.1</obs0>
+      <obs1>0.001</obs1>
+    </dataPoint>
+    <dataPoint>
+      <T_column>1000</T_column>
+      <obs0>0.02</obs0>
+      <obs1>0.1</obs1>
+    </dataPoint>
+  </dataGroup>
+  <comment>SYNTHETIC: nominal y values exercise software scoring only. They are not experiments and cannot validate a kinetic mechanism.</comment>
+</experiment>

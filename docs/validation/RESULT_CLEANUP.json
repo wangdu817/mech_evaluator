@@ -1,0 +1,21 @@
+{
+  "removed": "Historical simulation, analysis, plots, snapshots, saved batches and result selection",
+  "preserved_paths": [
+    "ui-state.json",
+    "ui-run\\config.yaml",
+    "ui-run\\prepared",
+    "clear-26092002\\inputs",
+    "clear-26092002\\prepared",
+    "clear-26092002\\26092002_cantera.yaml",
+    "multi-mechanism\\inputs",
+    "multi-mechanism\\prepared",
+    "multi-mechanism\\thermo-duplicates.json",
+    "source-baseline.json",
+    "live-snapshot-tests.log"
+  ],
+  "preserved_files": 31,
+  "hashes_unchanged": true,
+  "free_before": 4406640640,
+  "free_after": 61175525376,
+  "bytes_released": 56768884736
+}
